@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>IMagine</title>
+        <style>
+            head {
+                width: 100%;
+                height: 100%;
+            }
+            
+            body {
+                padding: 0;
+                margin: 0;
+            }
+
+            div#header{
+        
+                background-color:#02c7ea;
+                position:fixed;
+                width:100%;
+                top:0;
+                left:0;
+                height: 70px;
+            }
+            div#logo{
+                float:left;
+                width:50px;
+                padding-left: 9.5%;
+
+            }
+            ul.nav{
+                float:left;
+                list-style:none;
+                width:45%;
+                margin-left: 39.2%;
+            }
+            ul.nav li{
+                float:left;
+            }
+            ul.nav a{
+                line-height:40px;
+                color:#FFFFFF;
+                padding:0 15px;
+                text-decoration: none;
+            }
+            .contents01{
+                        width: 100%; height: 910px;
+                        
+                        /* 배경이미지는 최소 1920*960으로 제작해야 문제가 안생김 */
+                        background-image: url(/Users/sonminseog/Desktop/IMagineProject/img01.jpg);
+                        background-repeat: no-repeat; /* 배경이미지X */
+                        background-size: cover; /* 요소를 비율에 맞게 커버 */
+                        background-position: center; /* 이미지를 요소의 정가운데로 처리 */
+                        background-attachment: scroll; /* 스크롤바 움직일때 이미지가 따라다님 */
+            }
+            .contents02{
+                        width: 100%; height: 910px;
+                        
+                        /* 배경이미지는 최소 1920*960으로 제작해야 문제가 안생김 */
+                        background-image: url(/Users/sonminseog/Desktop/IMagineProject/img02.jpg);
+                        background-repeat: no-repeat; /* 배경이미지X */
+                        background-size: cover; /* 요소를 비율에 맞게 커버 */
+                        background-position: center; /* 이미지를 요소의 정가운데로 처리 */
+                        background-attachment: scroll; /* 스크롤바 움직일때 이미지가 따라다님 */
+            }
+            .contents01 .textcontent {
+                position: absolute;
+                color: white;
+                top:321px;
+                text-align: center;
+                font-size: 68px;
+                left: 10%;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="header" style="z-index: 2";>
+            <div id="logo"><img src="/Users/sonminseog/Desktop/IMagineProject/IMaineICON.png" width="75.13px" height="70.px" ></div>
+            <div>
+               <ul class="nav">
+                  <li><a href="#">소개</a></li>
+                  <li><a href="#">프로젝트</a></li>
+                  <li><a href="#">TEAM</a></li>
+                  <li><a href="#">RECRUIT</a></li>
+                  <li><a href="#">NEWS</a></li>
+               </ul>
+            </div> 
+       </div>
+       
+        <div class="contents01">
+            <span class="textcontent" style="z-index: 1;" >
+               이동에 새로운 가치를,<br>
+               상상(IMagine。)속 미래를 현실로 만듭니다.
+            </span> 
+        </div>
+        <div class="contents02">
+       </div>
+    </body>
+</html>
