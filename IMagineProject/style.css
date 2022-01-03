@@ -1,0 +1,252 @@
+*   {
+    padding: 0; margin: 0; 
+}
+div#header{
+
+    background-color : #f9fafb;
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    height: 70px;
+    opacity: 0.95;
+}
+
+div#logo{
+    float:left;
+    width:50px;
+    left: 20%;
+    position: absolute;
+}
+
+ul.nav{
+    float:left;
+    list-style:none;
+    width:auto;
+    height: auto;
+    left: 55%;
+    top: 20px;
+    position:absolute;
+}
+
+ul.nav li{
+    float:left;
+}
+
+ul.nav li :hover{
+    background-color:cornflowerblue;
+    border-radius: 40px;
+}
+
+ul.nav a{
+    line-height:40px;
+    color: black;
+    padding:0 15px;
+    text-decoration: none;
+}
+
+.contents01{
+    width: 100%; height: 910px;
+            
+    /* 배경이미지는 최소 1920*960으로 제작해야 문제가 안생김 */
+    background-image: url(/Users/sonminseog/Desktop/IMagineProject/IMagineMainpage.jpeg);
+    background-repeat: no-repeat; /* 배경이미지X */
+    background-size: cover; /* 요소를 비율에 맞게 커버 */
+    background-position: center; /* 이미지를 요소의 정가운데로 처리 */
+    background-attachment: scroll; /* 스크롤바 움직일때 이미지가 따라다님 */
+}
+
+.contents02{
+    width: 100%; height: 910px;
+    
+    /* 배경이미지는 최소 1920*960으로 제작해야 문제가 안생김 */
+    background-image: url(/Users/sonminseog/Desktop/IMagineProject/motto.png);
+    background-repeat: no-repeat; /* 배경이미지X */
+    background-size: cover; /* 요소를 비율에 맞게 커버 */
+    background-position: center; /* 이미지를 요소의 정가운데로 처리 */
+    background-attachment: scroll; /* 스크롤바 움직일때 이미지가 따라다님 */
+}
+
+.contents01 .textcontent {
+    position: absolute;
+    color: white;
+    top:321px;
+    text-align: center;
+    font-size: 68px;
+    left: 10%;
+}
+
+.contents02 .textcontent2 {
+    position: absolute;
+    color: white;
+    top:1650px;
+    text-align: center;
+    font-size: 60px;
+    left: 37%;
+}
+.contents02 .textcontent3 {
+    position: absolute;
+    color: white;
+    top:1800px;
+    text-align: center;
+    font-size: 20px;
+    left: 40%;
+}
+.contents02 .boximg {
+    position: absolute;
+    color: white;
+    top:1850px;
+    text-align: center;
+    font-size: 10px;
+    left: 15%;
+    width: 70%
+}
+
+.contents03 {
+    width: 100%; height: 910px;
+    
+    /* 배경이미지는 최소 1920*960으로 제작해야 문제가 안생김 */
+    background-image: url(/Users/sonminseog/Desktop/IMagineProject/motto.png);
+    background-repeat: no-repeat; /* 배경이미지X */
+    background-size: cover; /* 요소를 비율에 맞게 커버 */
+    background-position: center; /* 이미지를 요소의 정가운데로 처리 */
+    background-attachment: scroll; /* 스크롤바 움직일때 이미지가 따라다님 */
+}
+
+.contents03 .textcontent4 {
+    position: absolute;
+    color: white;
+    top:2600px;
+    text-align: center;
+    font-size: 46px;
+    left:40%
+}
+.contents03 .textcontent5 {
+    position: absolute;
+    color: white;
+    top: 2700px;
+    text-align: center;
+    font-size: 18px;
+    left: 33%;
+}
+
+.contents03 .feature-box1 {
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 32%;
+}
+
+.contents03 .feature-box2 {
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 52%;
+}
+
+.contents03 .feature-box3 {
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 32%;
+}
+
+.contents03 .feature-box4 {
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 52%;
+}
+
+
+.contents03 .feature-box1 .feature-img1 {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 330px;
+}
+.contents03 .feature-box2 .feature-img2 {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top:330px
+}
+
+.contents03 .feature-box3 .feature-img3 {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top:600px
+}
+
+.contents03 .feature-box4 .feature-img4 {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 600px
+}
+
+.contents04 {
+    height: 600px;
+    background-color: gray;
+}
+.contents04 .textcontent6 {
+    top: 1170px;
+    color:black;
+    position: absolute;
+    text-align: center;
+    font-size: 32px;
+    left: 30%;
+}
+.contents05 {
+    width: 100%;
+    height: 313px;
+    background-color: gray;
+    display: inline-block;
+    position: absolute;
+}
+.contents05 .button-box-left {
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 30%;
+    top: 150px;
+    
+}
+.contents05 .button-box-right{
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 75%;
+    top: 150px;
+}
+.contents05 .profile-box {
+    width: auto;
+    height: auto;
+    left: 50%;
+    top: 50px;
+    position: absolute;
+    
+}
+
+.contents05 .profile-box .profile-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 70%;
+    overflow: hidden; 
+    
+}
+.contents05 .textcontent7 {
+    width: auto;
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    left: 40%;
+    top: 150px
+}
+@media screen and (max-width: 768px){
+    #header {
+        flex-direction: column;
+    }
+}
