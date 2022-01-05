@@ -1,0 +1,368 @@
+*   {
+    padding: 0; margin: 0; 
+}
+div#header{
+
+    background-color : #f9fafb;
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    height: 70px;
+    opacity: 0.95;
+}
+
+div#logo{
+    float:left;
+    width:50px;
+    left: 20%;
+    position: absolute;
+}
+
+ul.nav{
+    float:left;
+    list-style:none;
+    width:auto;
+    height: auto;
+    left: 55%;
+    top: 20px;
+    position:absolute;
+}
+
+ul.nav li{
+    float:left;
+}
+
+ul.nav li :hover{
+    background-color:cornflowerblue;
+    border-radius: 40px;
+}
+
+ul.nav a{
+    line-height:40px;
+    color: black;
+    padding:0 15px;
+    text-decoration: none;
+}
+
+.contents01{
+    width: 100%; height: 910px;
+            
+    /* 배경이미지는 최소 1920*960으로 제작해야 문제가 안생김 */
+    background-image: url(/Users/sonminseog/Desktop/IMagineProject/IMagineMainpage.jpeg);
+    background-repeat: no-repeat; /* 배경이미지X */
+    background-size: cover; /* 요소를 비율에 맞게 커버 */
+    background-position: center; /* 이미지를 요소의 정가운데로 처리 */
+    background-attachment: scroll; /* 스크롤바 움직일때 이미지가 따라다님 */
+}
+
+.contents02{
+    width: 100%; height: 910px;
+    
+    /* 배경이미지는 최소 1920*960으로 제작해야 문제가 안생김 */
+    background-image: url(/Users/sonminseog/Desktop/IMagineProject/motto.png);
+    background-repeat: no-repeat; /* 배경이미지X */
+    background-size: cover; /* 요소를 비율에 맞게 커버 */
+    background-position: center; /* 이미지를 요소의 정가운데로 처리 */
+    background-attachment: scroll; /* 스크롤바 움직일때 이미지가 따라다님 */
+    text-align: center;
+}
+
+.contents01 .textcontent {
+    width: 100%;
+    position: absolute;
+    color: white;
+    top:321px;
+    text-align: center;
+    font-size: 68px;
+    
+}
+
+.contents02 .textcontent2 {
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    top:20%
+}
+.contents02 .textcontent3 {
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    top:25%;
+}
+.contents02 .boximg {
+    position: relative;
+    color: white;
+    text-align: center;
+    top: 30%
+    
+}
+
+.contents03 {
+    width: 100%; height: 910px;
+    
+    /* 배경이미지는 최소 1920*960으로 제작해야 문제가 안생김 */
+    background-image: url(/Users/sonminseog/Desktop/IMagineProject/motto.png);
+    background-repeat: no-repeat; /* 배경이미지X */
+    background-size: cover; /* 요소를 비율에 맞게 커버 */
+    background-position: center; /* 이미지를 요소의 정가운데로 처리 */
+    background-attachment: scroll; /* 스크롤바 움직일때 이미지가 따라다님 */
+    position: relative;
+    text-align: center;
+    
+}
+
+.contents03 .textcontent4 {
+    position: relative;
+    color: white;
+    font-size: 46px;
+    top: 10%;
+}
+.contents03 .textcontent5 {
+    position: relative;
+    color: white;
+    font-size: 18px;
+    top: 15%;
+}
+
+.contents03 .feature-box1 {
+    position: relative;
+    width: 30px;
+    top: 20%;
+    left: 32%;
+}
+
+.contents03 .feature-box2 {
+    width: 30px;
+    position: relative;
+    bottom: 8%;
+    left: 51%;
+    
+}
+
+.contents03 .feature-box3 {
+    width: 30px;
+    position: relative;
+    left: 32%;
+    bottom: 7%;
+
+}
+
+.contents03 .feature-box4 {
+    width: 30px;
+    position: relative;
+    left: 51%;
+    bottom: 35%;
+  
+}
+
+
+.contents03 .feature-box1 .feature-img1 {
+    position: relative;
+}
+.contents03 .feature-box2 .feature-img2 {
+    position: relative;
+}
+
+.contents03 .feature-box3 .feature-img3 {
+    position: relative;
+}
+
+.contents03 .feature-box4 .feature-img4 {
+    position: relative;
+}
+
+.contents04 {
+    width: 100%;
+    height: 600px;
+    background-color: gray;
+    position: relative;
+    text-align: center;
+}
+.contents04 .textcontent6 {
+    position: relative;
+    top: 40%;
+    color:black;
+    font-size: 32px;
+}
+.contents05 {
+    position: relative;
+    width: 100%;
+    height: 313px;
+    background-color: gray;
+    text-align: center;
+}
+.contents05 .button-box-left {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 35%;
+    left: 25%;
+
+}
+.contents05 .button-box-right{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 75%;
+    bottom: 1%;
+}
+.contents05 .profile-box {
+    width: 500px;
+    height: auto;
+    position: relative;
+    text-align: center;
+    left: 50%;
+    
+}
+
+.contents05 .profile-box .profile-img {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 70%;
+    overflow: hidden; 
+    
+}
+.contents05 .textcontent7 {
+    width: auto;
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    left: 41%;
+    top: 55%;
+}
+.contents06 {
+    width: 100%;
+    height: 910px;
+    background-size: cover;
+    background-image: url(/Users/sonminseog/Desktop/IMagineProject/motto.png);
+    text-align: center;
+    position: relative;
+    margin: 0px 0px 0px 0px;
+}
+
+.contents06 .textcontent8 {
+    position: relative;
+    color: white;
+    font-size: 46px;
+    top: 10%;
+}
+.contents06 .textcontent9 {
+    position: relative;
+    color: white;
+    top: 15%;
+    font-size: 18px;
+}
+
+.contents06 .feature-box5 {
+    position: relative;
+    width: 30px;
+    top: 20%;
+    left: 32%;
+}
+
+.contents06 .feature-box6 {
+    width: 30px;
+    position: relative;
+    bottom: 8%;
+    left: 51%;
+}
+
+.contents06 .feature-box7 {
+    width: 30px;
+    position: relative;
+    left: 32%;
+    bottom: 7%;
+}
+
+.contents06 .feature-box8 {
+    width: 30px;
+    position: relative;
+    left: 51%;
+    bottom: 35%;
+}
+
+
+.contents06 .feature-box5 .feature-img5 {
+  position: relative;
+}
+.contents06 .feature-box6 .feature-img6 {
+    position: relative;
+}
+
+.contents06 .feature-box7 .feature-img7 {
+   position: relative;
+}
+
+.contents06 .feature-box8 .feature-img8 {
+   position: relative;
+}
+.contents07 {
+    position: relative;
+    width: 100%;
+    height: 980px;
+}
+.contents07 .textcontent10 {
+    position: relative;
+    width: 100%;
+    height: 81px;
+    text-align: center;
+    font-size: 52px;
+    top: 20px;
+}
+.contents07 .textcontent11 {
+    position: relative;
+    width: 100%;
+    height: 79px;
+    text-align: center;
+    font-size: 24px;
+    top: 5px;
+}
+.contents07 .project-box1 {
+    width: 300px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 20%;
+}
+.contents07 .textcontent12 {
+    position: relative;
+    width: 600px;
+    height: auto;
+    text-align: center;
+    font-size: 22px;
+    bottom: 40%;
+    left: 40%;
+    text-align: center;
+}
+.contents07 .project-box2 {
+    position: relative;
+    width: 300px;
+    height: auto;
+    left: 20%;
+    
+}
+.contents07 .project-box3 {
+    position: relative;
+    top: 8%;
+    width: 300px;
+    height: auto;
+    left: 20%;
+
+}
+.contents07 .project-box4 {
+    position: relative;
+    top: 15%;
+    width: 300px;
+    height: auto;
+    left: 20%;
+}
+@media screen and (max-width: 768px){
+    #header {
+        flex-direction: column;
+    }
+}
