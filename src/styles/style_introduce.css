@@ -1,0 +1,242 @@
+*   {
+    padding: 0; margin: 0; 
+}
+div#header{
+
+    background-color : #f9fafb;
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    height: 70px;
+    opacity: 0.95;
+}
+
+.navbar {
+    display: flex;
+    padding: 8px, 12px;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .navbar_menu {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+.navbar .navbar_menu li {
+
+    padding: 8px, 12px;
+}
+div#logo{
+    float:left;
+    width:50px;
+    left: 20%;
+    position: absolute;
+}
+
+ul.nav{
+    float:left;
+    list-style:none;
+    width:auto;
+    height: auto;
+    left: 55%;
+    top: 20px;
+    position:absolute;
+}
+
+ul.nav li{
+    float:left;
+}
+
+ul.nav li :hover{
+    background-color:cornflowerblue;
+    border-radius: 40px;
+}
+
+ul.nav a{
+    line-height:40px;
+    color: black;
+    padding:0 15px;
+    text-decoration: none;
+}
+
+.contents01{
+    position: relative;
+    width: 100%; height: 910px;
+            
+    /* 배경이미지는 최소 1920*960으로 제작해야 문제가 안생김 */
+    background-image: url(../img/introduce_1.jpeg);
+    background-repeat: no-repeat; /* 배경이미지X */
+    background-size: cover; /* 요소를 비율에 맞게 커버 */
+    background-position: center; /* 이미지를 요소의 정가운데로 처리 */
+    background-attachment: scroll; /* 스크롤바 움직일때 이미지가 따라다님 */
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.contents02{
+    width: 100%; height: 910px;
+    
+    /* 배경이미지는 최소 1920*960으로 제작해야 문제가 안생김 */
+    background-image: url(../img/itroduce_2.jpeg);
+    background-repeat: no-repeat; /* 배경이미지X */
+    background-size: cover; /* 요소를 비율에 맞게 커버 */
+    background-position: center; /* 이미지를 요소의 정가운데로 처리 */
+    background-attachment: scroll; /* 스크롤바 움직일때 이미지가 따라다님 */
+    text-align: center;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+.contents03 {
+    position: relative;
+    width: 100%;
+    height: 1120px;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+
+}
+.contents04 {
+    position: relative;
+    width: 100%;
+    height: 1120px;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+
+}
+.contents01 .textcontent {
+  position: relative;
+  width: auto;
+  height: auto;
+  top: 30%;
+  font-size: 56px;
+  color: white;
+    
+}
+.contents01 .textcontent-2 {
+    position: relative;
+    width: auto;
+    height: auto;
+    top: 30%;
+    font-size: 24px;
+    color: white;
+      
+  }
+
+.contents02 .textbox {
+    position: relative;
+    width: 788px;
+    height: 406px;
+    background-color: #121315;
+    left: 25%;
+    top: 25%;
+    opacity: 0.90;
+    border-radius: 35px;
+    padding: 0;
+    margin: 0;
+}
+
+.contents03 .textcontent-1 {
+    position: relative;
+    text-align: center;
+    font-size: 52px;
+    top: 10%;
+    padding: 0;
+    margin: 0;
+}
+.contents03 .textcontent-2 {
+    position: relative;
+    text-align: center;
+    font-size: 24px;
+    top: 13%;
+    padding: 0;
+    margin: 0;
+}
+.contents03 .textbox-1 {
+    position: relative;
+    width: 900px;
+    top: 20%;
+    font-size: 24px;
+    left: 20%;
+    background-color: #F9FAFB;
+    padding: 0;
+    margin: 0;
+}
+.contents03 .textbox-2 {
+    position: relative;
+    width: 900px;
+    top: 20%;
+    font-size: 24px;
+    left: 20%;
+    padding: 0;
+    margin: 0;
+}
+.contents03 .textbox-3 {
+    position: relative;
+    width: 900px;
+    top: 20%;
+    font-size: 24px;
+    left: 20%;
+    background-color: #F9FAFB;
+    padding: 0;
+    margin: 0;
+}
+.contents03 .textbox-4 {
+    position: relative;
+    width: 1100px;
+    top: 20%;
+    font-size: 24px;
+    left: 20%;
+}
+
+.contents04 .textcontent-1 {
+    position: relative;
+    text-align: center;
+    font-size: 52px;
+    top: 10%;
+}
+.contents04 .textcontent-2 {
+    position: relative;
+    text-align: center;
+    font-size: 24px;
+    top: 13%;
+}
+.contents04 .textbox-1 {
+    position: relative;
+    width: 1100px;
+    top: 20%;
+    font-size: 24px;
+    left: 20%;
+    background-color: #F9FAFB;
+}
+.contents04 .textbox-2 {
+    position: relative;
+    width: 1100px;
+    top: 20%;
+    font-size: 24px;
+    left: 20%;
+}
+.contents04 .textbox-3 {
+    position: relative;
+    width: 1100px;
+    top: 20%;
+    font-size: 24px;
+    left: 20%;
+}
+.contents04 .textbox-4 {
+    position: relative;
+    width: 1100px;
+    top: 20%;
+    font-size: 24px;
+    left: 20%;
+}
+
+@media screen and (max-width: 768px){
+    .nav {
+        flex-direction: column;
+    }
+}
