@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #f9fafb;
+    opacity: 0.95;
+    padding: 8px, 12px;
+    position:fixed;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+}
+.navbar .navbar_menu {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    width:auto;
+    height: auto;
+}
+.navbar .navbar_menu li {
+    padding: 8px 12px;
+}
+.navbar .navbar_menu li:hover {
+    background-color:cornflowerblue;
+    border-radius: 40px;
+}
+.navbar .navbar_icons {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+.navbar .navbar_icons li {
+    width: 20px;
+    padding: 2px, 2px;
+}
+.navbar .navbar_toogleButton {
+    display: none;
+    position: absolute;
+    right: 32px;
+    font-size: 24px;
+    top: 15px;
+}
+.contents01{
+    width: 100%; height: 100vh;
+            
+    /* 배경이미지는 최소 1920*960으로 제작해야 문제가 안생김 */
+    background-image: url(../img/IMagineMainpage.jpeg);
+    background-repeat: no-repeat; /* 배경이미지X */
+    background-size: cover; /* 요소를 비율에 맞게 커버 */
+    background-position: center; /* 이미지를 요소의 정가운데로 처리 */
+    background-attachment: scroll; /* 스크롤바 움직일때 이미지가 따라다님 */
+}
+
+.contents01 .textcontent {
+    width: 100%;
+    position: absolute;
+    color: white;
+    top:321px;
+    text-align: center;
+    font-size: 64px;
+    
+}
+
+.movility {
+    width: 100%;
+    height: 600px;
+    background-color: #F9FAFB;
+}
+.movility .mobility-text1 {
+    position: relative;
+    width: 150px;
+    height: auto;
+    left: 30%;
+    top: 5%;
+}
+.movility .mobility-text2 {
+    position: relative;
+    width: 900px;
+    height: auto;  
+    font-size: 30px;
+    top: 10%;
+    left: 29.5%;
+}
+.movility .mobility-text3 {
+    position: relative;
+    width: 900px;
+    height: auto;  
+    font-size: 25px;
+    top: 25%;
+    left: 29.5%;
+}
+.mission_vision {
+    position: relative;
+    width: 100%;
+    height: 920px;
+
+} 
+.mission_vision .mission{
+    width: auto;
+    height: auto;
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    top: 10%;
+}
+.mission_vision .vission{
+    width: auto;
+    height: auto;
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    top: 20%;
+}
+@media screen and (max-width: 768px){
+   .navbar {
+       flex-direction: column;
+       align-items: flex-start;
+   }
+   .navbar .navbar_menu {
+       display: none;
+       flex-direction: column;
+       align-items: center;
+       width: 100%;
+   }
+   .navbar .navbar_menu li {
+       width: 100%;
+       text-align: center;
+   }
+   .navbar .navbar_icons {
+       display: none;
+       width: 100%;
+       justify-content: center;
+   }
+   .navbar .navbar_toogleButton {
+       display: block;
+   }
+   .navbar .navbar_menu.active,
+   .navbar .navbar_icons.active {
+       display: flex;
+   }
+}
+@media screen and (max-width: 1085px){
+    .contents01 .textcontent {
+        font-size: 45px;
+    }
+ }
+ @media screen and (max-width: 768px){
+    .contents01 .textcontent {
+        font-size: 40px;
+    }
+    .mission_vision .mission {
+        font-size: 20px;
+    }
+    .mission_vision .vission {
+        font-size: 20px;
+    }
+    .movility .mobility-text1 {
+        font-size: 10px;
+    }
+    .movility .mobility-text2 {
+        font-size: 20px;
+    }
+    .movility .mobility-text3 {
+        font-size: 15px;
+    }
+ }
+ @media screen and (min-width: 769px){
+   .contents01 {
+       background-size: cover;
+   }
+ }
+ @media screen and (max-width: 769px){
+    .contents01 {
+        background-size: contain;
+    }
+  }
+ @media screen and (max-width: 680px){
+    .contents01 .textcontent {
+        font-size: 30px;
+    }
+ }
+ @media screen and (max-width: 509px){
+    .contents01 .textcontent {
+        font-size: 20px;
+    }
+ }
+ @media screen and (max-width: 340px){
+    .contents01 .textcontent {
+        font-size: 15px;
+    }
+ }
