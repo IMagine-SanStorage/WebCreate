@@ -1,0 +1,722 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+p {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #f9fafb;
+    opacity: 0.95;
+    padding: 8px, 12px;
+    position:fixed;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+}
+.navbar .navbar_menu {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    width:auto;
+    height: auto;
+}
+.navbar .navbar_menu li {
+    padding: 8px 12px;
+}
+.navbar .navbar_menu li:hover {
+    background-color:cornflowerblue;
+    border-radius: 40px;
+}
+.navbar .navbar_icons {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+.navbar .navbar_icons li {
+    width: 35px;
+}
+.navbar .navbar_toogleButton {
+    display: none;
+    position: absolute;
+    right: 32px;
+    font-size: 24px;
+    top: 15px;
+}
+.contents01{
+    position: relative;
+    width: 100%; height: 910px;
+            
+    /* 배경이미지는 최소 1920*960으로 제작해야 문제가 안생김 */
+    background-image: url(../img/IMagineMainpage.jpeg);
+    background-repeat: no-repeat; /* 배경이미지X */
+    background-size: cover;
+    background-position: center; /* 이미지를 요소의 정가운데로 처리 */
+    background-attachment: scroll; /* 스크롤바 움직일때 이미지가 따라다님 */
+    
+}
+
+.contents01 .textcontent {
+    width: 100%;
+    position: absolute;
+    color: white;
+    top:321px;
+    text-align: center;
+    font-size: 68px;
+    
+}
+
+.movility {
+    width: 100%;
+    height: 1200px;
+    background-color: #F9FAFB;
+}
+.movility .mobility-text1 {
+    position: relative;
+    width: 150px;
+    height: auto;
+    left: 23%;
+    top: 1%;
+}
+.movility .mobility-text2 {
+    position: relative;
+    width: 900px;
+    height: auto;  
+    font-size: 30px;
+    top: 10%;
+    left: 23%;
+}
+.movility .mobility-text3 {
+    position: relative;
+    width: 900px;
+    height: auto;  
+    font-size: 23px;
+    top: 20%;
+    left: 23%;
+}
+.movility .movility-imgbox {
+    position: absolute;
+    width: 370px;
+    height: 780px;
+    background-image: url(../img/movility.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 65%;
+}
+.movility .btn-1 {
+    position: relative;
+    width: 297px;
+    height: 92px;
+    top: 25%;
+    left: 38%;
+}
+.mission_vision {
+    position: relative;
+    width: 100%;
+    height: 454px;
+
+} 
+.mission_vision .mission{
+    width: auto;
+    height: auto;
+    position: relative;
+    font-size: 30px;
+    top: 30%;
+    text-align: center;
+}
+.air_movility {
+    position: relative;
+    width: 100%;
+    height: 1529px;
+    background-image: url(../img/main_vision.jpeg);
+    background-repeat: no-repeat; /* 배경이미지X */
+    background-size: cover; /* 요소를 비율에 맞게 커버 */
+    background-position: center; /* 이미지를 요소의 정가운데로 처리 */
+    text-align: center;
+    background-blend-mode: multiply; /*blend 호과 */
+    background-color:rgba(0, 0, 0, 0.5); /*blend 효과*/
+}
+.air_movility .textbox-1{
+    position: relative;
+    width: 759px;
+    height: 174px;
+    color: #FFFFFF;
+    font-size: 50px;
+    text-align: center;
+    top: 15%;
+    left: 30%;
+}
+.air_movility .textbox-2{
+    position: relative;
+    width: 759px;
+    height: 114px;
+    color: #FFFFFF;
+    font-size: 50px;
+    text-align: center;
+    left: 30%;
+    top: 25%;
+}
+.vission {
+    position: relative;
+    width: 100%;
+    height: 454px;
+    background-color: #F9FAFB;
+}
+.vission .textbox-1 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    font-size: 30px;
+    text-align: center;
+    top: 15%;
+}
+.dilivery {
+    position: relative;
+    width: 100%;
+    height: 1800px;
+    background-color: #F9FAFB;
+}
+.dilivery .dilivery-imgbox-1 {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    background-image: url(../img/dilively_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 30%;
+}
+.dilivery .textbox {
+    position: relative;
+    display: flex;
+}
+.dilivery .textbox-1 {
+    position: relative;
+    width: 255px;
+    height: 31px;
+    font-size: 28px;
+    margin-top: 3%;
+    left: 5%;
+}
+.dilivery .textbox-2 {
+    position: relative;
+    width: 528px;
+    height: 296px;
+    font-size: 23px;
+    margin-top: 3%;
+    margin-left: 31%;
+    text-align: end;
+}
+.dilivery .textbox-3 {
+    position: relative;
+    width: 521px;
+    height: 200px;
+    font-size: 50px;
+    bottom: 9%;
+    left: 5%;
+}
+.dilivery .dilivery-imgbox-2 {
+    position: relative;
+    width: 800px;
+    height: 534px;
+    background-image: url(../img/dilively_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 5%;
+}
+.dilivery .btn-1 {
+    position: relative;
+    width: 297px;
+    height: 92px;
+    top: 2%;
+    left: 38%;
+}
+.news {
+    position: relative;
+    width: 100%;
+    height: 660px;
+    background-color: #F9FAFB;
+}
+.news .textbox-1 {
+    position: relative;
+    width: 255px;
+    height: 31px;
+    font-size: 28px;
+    left: 5%;
+}
+.news .textbox-2 {
+    position: relative;
+    width: 527px;
+    height: 296px;
+    font-size: 23px;
+    text-align: end;
+    left: 49%;
+    display:inline-block;
+}
+.news .textbox-3 {
+    position: relative;
+    width: 520px;
+    height: 200px;
+    font-size: 50px;
+    left: 5%;
+    bottom: 32%;
+}
+.news .btn-1 {
+    width: 297px;
+    height: 92px;
+    position: relative;
+    left: 35%;
+    bottom: 10%;
+}
+.introduce {
+    position: relative;
+    width: 100%; height: 910px;
+            
+    /* 배경이미지는 최소 1920*960으로 제작해야 문제가 안생김 */
+    background-image: url(../img/introduce_1.jpeg);
+    background-repeat: no-repeat; /* 배경이미지X */
+    background-size: cover; /* 요소를 비율에 맞게 커버 */
+    background-position: center; /* 이미지를 요소의 정가운데로 처리 */
+    text-align: center;
+}
+.introduce .textbox-1 {
+    position: relative;
+    width: auto;
+    height: auto;
+    top: 30%;
+    font-size: 56px;
+    color: white;
+}
+.introduce .textbox-2 {
+    position: relative;
+    width: auto;
+    height: auto;
+    top: 35%;
+    font-size: 24px;
+    color: white;
+}
+.introduce .btn-1 {
+    position: relative;
+    width: 297px;
+    height: 92px;
+    top: 55%;;
+}
+.rolemodel {
+    width: 100%;
+    height: 454px;
+    text-align: center;
+    background-color: #F9FAFB;
+}
+.rolemodel .textbox-1 {
+    position: relative;
+    width: 100%;
+    height: 75px;
+    font-size: 64px;
+    top: 50%;
+
+}
+.recruit {
+    position: relative;
+    width: 100%; height: 1000px;
+    background-color: #F9FAFB;
+}
+.recruit .recruit-imgbox img {
+    position:absolute;
+    clip: rect( 145px, 2000px, 400px, 0px ); /*clip: rect( top, right, bottom, left );*/
+}
+.recruit .textbox-1 {
+    position: relative;
+    width: 455px;
+    height: 205px;
+    text-align: center;
+    font-size: 60px;
+    top: 40%;
+    left: 27%;
+}
+.recruit .textbox-2 {
+    position: relative;
+    width: 800px;
+    height: 176px;
+    font-size: 30px;
+    top: 40%;
+    left: 30%;
+}
+.recruit .btn-1 {
+    position: relative;
+    width: 297px;
+    height: 92px;
+    top: 38%;
+    left: 40%;
+}
+.recruit .recruit-icon {
+    position: relative;
+    width: 100px;
+    left: 85%;
+    top: 50%;
+}
+.footer {
+    position: relative;
+    width: 100%;
+    height: 454px;
+    background-color: #00172E;
+}
+.footer .textbox-1 {
+    position: relative;
+    width: 634px;
+    height: 73px;
+    font-size: 60px;
+    color: #FFFFFF;
+    left: 30%;
+    top: 20%;
+}
+.footer .textbox-2 {
+    position: relative;
+    width: 634px;
+    height: 176px;
+    font-size: 30px;
+    color: #FFFFFF;
+    left: 30%;
+    top: 35%;
+}
+@media screen and (max-width: 768px){
+   .navbar {
+       flex-direction: column;
+       align-items: flex-start;
+   }
+   .navbar .navbar_menu {
+       display: none;
+       flex-direction: column;
+       align-items: center;
+       width: 100%;
+   }
+   .navbar .navbar_menu li {
+       width: 100%;
+       text-align: center;
+   }
+   .navbar .navbar_icons {
+       display: none;
+       width: 100%;
+       justify-content: center;
+   }
+   .navbar .navbar_toogleButton {
+       display: block;
+   }
+   .navbar .navbar_menu.active,
+   .navbar .navbar_icons.active {
+       display: flex;
+   }
+}
+@media all and (max-width: 436px){
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    html {
+        width: 500px;
+    }
+    
+
+    .dilivery {
+        margin: 0;
+    }
+    .contents01 {
+        width: auto;
+        position: relative;
+        background-repeat: no-repeat; /* 배경이미지X */
+        background-size: cover;
+        background-position: center; /* 이미지를 요소의 정가운데로 처리 */
+        background-attachment: scroll;
+    }
+    .contents01 .textcontent {
+        font-size: 28px;
+        background-size: 100%;
+        width: 500px;
+        top: 45%;
+    }
+    .mission_vision .mission {
+        font-size: 25px;
+    }
+    .air_movility {
+        width: 500px;
+    }
+    .air_movility .textbox-1 {
+        font-size: 35px;
+        top: 25%;
+        left: 1%;
+        width: 450px;
+    }
+    .air_movility .textbox-2 {
+        font-size: 40px;
+        top: 30%;
+        width: 500px;
+        left: 0%;
+    }
+    .movility {
+        width: auto;
+        height: 1400px;
+    }
+    .mission_vision .mission {
+        top: 30%;
+    }
+    .movility .mobility-text1 {
+        position: relative;
+        left: 10%;
+        bottom: 30px;
+
+    }
+    .vission .textbox-1{
+        font-size: 22px;
+    }
+    .movility .mobility-text2 {
+        position: relative;
+        top: 5%;
+        left: 10%;
+        width: 450px;
+    }
+    .movility .mobility-text3 {
+        left: 8%;
+        top: 53%;
+        width: 450px;
+    }
+    .movility .movility-imgbox {
+        width: 430px;
+        height: 600px;
+        margin-top: 60%;
+        left: 10%;
+    }
+    .movility .btn-1 {
+        position: relative;
+        top: 52%;
+        left: 15%;
+    }
+    .dilivery .btn-1 {
+        position: relative;
+        top: 2%;
+        left: 14%;
+    }
+    .dilivery .dilivery-imgbox-1 {
+        margin-right: 0px;
+        display: block;
+        width: 500px;
+        left: 0%;
+    }
+    .dilivery .textbox-1 {
+        width: 800px;
+        font-size: 20px;
+    }
+    .dilivery .textbox-2 {
+        width: 3000px;
+        font-size: 12px;
+    }
+    .dilivery .textbox-3 {
+        font-size: 30px;
+        width: 450px;
+        top: 2%;
+    }
+    .dilivery .dilivery-imgbox-2 {
+        width: 500px;
+        left: 0;
+    }
+    .news .textbox-2 {
+        font-size: 13px;
+        width: 300px;
+        left: 39%;
+    }
+    .news .textbox-3 {
+        font-size: 35px;
+        width: 300px;
+        top: 5%;
+        left: 24%;
+    }
+    .news .btn-1 {
+        position: relative;
+        bottom: 40%;
+        left: 8%;
+        width: 200px;
+    }
+    .introduce .btn-1 {
+        position: relative;
+        top: 55%;
+        left: 25%;
+    }
+    .recruit .textbox-1 {
+        font-size: 40px;
+        left: 5%;
+    }
+    .recruit .textbox-2 {
+        font-size: 18px;
+        left: 5%;
+        width: 470px;
+    }
+    .recruit .recruit-icon {
+        position:relative; left: 80%; top: 43%;
+        width: 50px;
+    }
+    .recruit .btn-1 {
+        position: relative;
+        top: 39%;
+        left: 10%;
+    }
+    .footer .textbox-1 {
+        width: 400px;
+        left: 10%;
+        font-size: 35px;
+        top: 30%;
+    }
+    .footer .textbox-2 {
+        width: 400px;
+        left: 10%;
+        font-size: 18px;
+    }
+ }
+ @media all and (min-width: 620px) and (max-width: 980px){
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .dilivery {
+        margin: 0;
+    }
+    .contents01 {
+        width: 100%;
+        position: relative;
+        background-repeat: no-repeat; /* 배경이미지X */
+        background-size: cover;
+        background-position: center; /* 이미지를 요소의 정가운데로 처리 */
+        background-attachment: scroll;
+    }
+    .contents01 .textcontent {
+        font-size: 30px;
+        top: 35%;
+        left: 0%;
+        width: 100%;
+        display: inline-block;
+    }
+    .air_movility .textbox-1 {
+        font-size: 30px;
+        top: 35%;
+        left: 20%;
+        width: 400px;
+    }
+    .air_movility .textbox-2 {
+        font-size: 30px;
+        top: 35%;
+        left: 20%;
+        width: 400px
+    }
+    .movility {
+        width: auto;
+    }
+    .mission_vision .mission {
+        top: 30%;
+    }
+    .movility .mobility-text1 {
+        position: relative;
+        left: 10%;
+        bottom: 30px;
+        width: 150px;
+
+    }
+    .movility .mobility-text2 {
+        position: relative;
+        top: 5%;
+        left: 7%;
+        width: 400px;
+        font-size: 20px;
+    }
+    .movility .mobility-text3 {
+        left: 7%;
+        top: 10%;
+        width: 500px;
+        font-size: 15px;
+    }
+    .movility .movility-imgbox {
+        width: 300px;
+        height: 600px;
+        margin-top: 23%;
+        left: 50%;
+    }
+    .movility .btn-1 {
+        position: relative;
+        top: 37%;
+    }
+    .dilivery .btn-1 {
+        position: relative;
+        top: 2%;
+    }
+    .dilivery .dilivery-imgbox-1 {
+        margin-right: 0px;
+        display: block;
+        width: 100%;
+        left:0%;
+    }
+    .dilivery .dilivery-imgbox-2 {
+        width: 100%;
+        left: 0;
+    }
+    .dilivery .textbox-3 {
+        font-size: 25px;
+    }
+    .dilivery .textbox-2 {
+        right: 7%;
+        width: 900px;
+        font-size: 15px;
+    }
+    .news .textbox-3 {
+        font-size: 30px;
+    }
+    .news .textbox-2 {
+        left: 20%;
+        font-size: 18px;
+    }
+    .news .btn-1 {
+        position: relative;
+        bottom: 25%;
+    }
+    .introduce .btn-1 {
+        position: relative;
+        top: 45%;
+        left: 35%;
+    }
+    .recruit .recruit-icon {
+        position:relative; left: 80%; top: 43%;
+        width: 50px;
+    }
+    .recruit .textbox-1 {
+        font-size: 45px;
+        left: 15%;
+    }
+    .recruit .textbox-2 {
+        left: 30%;
+        font-size: 15px;
+        width: 400px
+    }
+    .recruit .btn-1 {
+        position: relative;
+        top: 39%;
+        left: 28%;
+    }
+    .footer .textbox-1{
+        left: 5%;
+        font-size: 25px;
+        width: 300px;
+    }
+    .footer .textbox-2 {
+        left: 5%;
+        font-size: 25px;
+        width: 400px;
+        top: 30%;
+    }
+    
+ }
