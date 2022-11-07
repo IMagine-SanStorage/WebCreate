@@ -1,63 +1,52 @@
 *   {
     padding: 0; margin: 0; 
 }
-div#header{
-
-    background-color : #f9fafb;
-    position:fixed;
-    width:100%;
-    top:0;
-    left:0;
-    height: 70px;
-    opacity: 0.95;
+a {
+    color: black;
+    text-decoration-line: none;
 }
 
 .navbar {
     display: flex;
-    padding: 8px, 12px;
     justify-content: space-between;
     align-items: center;
+    background-color:  #f9fafb;
+    opacity: 0.95;
+    padding: 8px, 12px;
+    position:fixed;
+    width: 100%;
+    height: auto;
+    z-index: 2;
 }
 .navbar .navbar_menu {
     display: flex;
     list-style: none;
     padding-left: 0;
-}
-.navbar .navbar_menu li {
-
-    padding: 8px, 12px;
-}
-div#logo{
-    float:left;
-    width:50px;
-    left: 20%;
-    position: absolute;
-}
-
-ul.nav{
-    float:left;
-    list-style:none;
     width:auto;
     height: auto;
-    left: 55%;
-    top: 20px;
-    position:absolute;
 }
-
-ul.nav li{
-    float:left;
+.navbar .navbar_menu li {
+    padding: 8px 12px;
 }
-
-ul.nav li :hover{
+.navbar .navbar_menu li:hover {
     background-color:cornflowerblue;
     border-radius: 40px;
 }
-
-ul.nav a{
-    line-height:40px;
-    color: black;
-    padding:0 15px;
-    text-decoration: none;
+.navbar .navbar_icons {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+.navbar .navbar_icons li {
+    width: 20px;
+    padding: 2px, 2px;
+}
+.navbar .navbar_toogleButton {
+    display: none;
+    position: absolute;
+    right: 32px;
+    font-size: 24px;
+    top: 15px;
 }
 
 .contents01{
@@ -65,14 +54,11 @@ ul.nav a{
     width: 100%; height: 910px;
             
     /* 배경이미지는 최소 1920*960으로 제작해야 문제가 안생김 */
-    background-image: url(https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FZBLK7%2FbtrquOG2nD1%2FZS6RjyJrNVf3LWwDZWDb5K%2Fimg.png);
+    background-image: url(../img/introduce_1.jpeg);
     background-repeat: no-repeat; /* 배경이미지X */
     background-size: cover; /* 요소를 비율에 맞게 커버 */
     background-position: center; /* 이미지를 요소의 정가운데로 처리 */
     background-attachment: scroll; /* 스크롤바 움직일때 이미지가 따라다님 */
-    text-align: center;
-    padding: 0;
-    margin: 0;
     text-align: center;
 }
 
@@ -80,20 +66,18 @@ ul.nav a{
     width: 100%; height: 910px;
     
     /* 배경이미지는 최소 1920*960으로 제작해야 문제가 안생김 */
-    background-image: url(https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbc0th0%2FbtrqtU8PfF5%2FZ41k6YYplJ6nKkhnidLwv0%2Fimg.png);
+    background-image: url(../img/itroduce_2.jpeg);
     background-repeat: no-repeat; /* 배경이미지X */
     background-size: cover; /* 요소를 비율에 맞게 커버 */
     background-position: center; /* 이미지를 요소의 정가운데로 처리 */
     background-attachment: scroll; /* 스크롤바 움직일때 이미지가 따라다님 */
     text-align: center;
     position: relative;
-    padding: 0;
-    margin: 0;
 }
 .contents03 {
     position: relative;
     width: 100%;
-    height: 1120px;
+    height: 1500px;
     background-color: white;
     padding: 0;
     margin: 0;
@@ -102,10 +86,8 @@ ul.nav a{
 .contents04 {
     position: relative;
     width: 100%;
-    height: 1120px;
+    height: 1130px;
     background-color: white;
-    padding: 0;
-    margin: 0;
 
 }
 .contents01 .textcontent {
@@ -121,7 +103,7 @@ ul.nav a{
     position: relative;
     width: auto;
     height: auto;
-    top: 30%;
+    top: 35%;
     font-size: 24px;
     color: white;
       
@@ -139,7 +121,12 @@ ul.nav a{
     padding: 0;
     margin: 0;
 }
-
+.contents02 .textbox .textbox-text {
+    position: relative;
+    color: white;
+    top: 20%;
+    font-size: 30px;
+}
 .contents03 .textcontent-1 {
     position: relative;
     text-align: center;
@@ -159,6 +146,7 @@ ul.nav a{
 .contents03 .textbox-1 {
     position: relative;
     width: 900px;
+    height: auto;
     top: 20%;
     font-size: 24px;
     left: 20%;
@@ -169,6 +157,7 @@ ul.nav a{
 .contents03 .textbox-2 {
     position: relative;
     width: 900px;
+    height: auto;
     top: 20%;
     font-size: 24px;
     left: 20%;
@@ -178,6 +167,7 @@ ul.nav a{
 .contents03 .textbox-3 {
     position: relative;
     width: 900px;
+    height: auto;
     top: 20%;
     font-size: 24px;
     left: 20%;
@@ -187,10 +177,13 @@ ul.nav a{
 }
 .contents03 .textbox-4 {
     position: relative;
-    width: 1100px;
+    width: 900px;
+    height: auto;
     top: 20%;
     font-size: 24px;
     left: 20%;
+    padding: 0;
+    margin: 0;
 }
 
 .contents04 .textcontent-1 {
@@ -235,8 +228,119 @@ ul.nav a{
     left: 20%;
 }
 
-@media screen and (max-width: 768px){
-    .nav {
-        flex-direction: column;
+@media screen and (max-width: 1170px){
+    .contents02 .textbox {
+        width: 600px;
+        height: 306px;
     }
+    .contents02 .textbox .textbox-text {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar .navbar_menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .navbar .navbar_menu li {
+        width: 100%;
+        text-align: center;
+    }
+    .navbar .navbar_icons {
+        display: none;
+        width: 100%;
+        justify-content: center;
+    }
+    .navbar .navbar_toogleButton {
+        display: block;
+    }
+    .navbar .navbar_menu.active,
+    .navbar .navbar_icons.active {
+        display: flex;
+    }
+    .contents01 .textcontent {
+        font-size: 36px;
+        top: 35%;
+    }
+    .contents01 .textcontent-2 {
+        font-size: 14px;
+        top: 35%;
+    }
+ }
+ 
+  @media screen and (max-width: 769px){
+     .contents01 {
+         background-size: contain;
+         height: 555px;
+    }
+    .contents02 {
+        background-size: contain;
+        height: 555px;
+    }
+    .contents02 .textbox {
+        width: 420px;
+        height: 206px;
+    }
+    .contents02 .textbox .textbox-text {
+        font-size: 15px;
+    }
+    .contents03 {
+        height: 1200px;
+    }
+    .contents04 {
+        height: 1200px;
+    }
+    .contents03 .textcontent-1 {
+        font-size: 42px;
+    }   
+    .contents03 .textcontent-2 {
+        font-size: 20px;
+    }
+    .contents03 .textbox-1 {
+        font-size: 20px;
+    }
+    .contents03 .textbox-2 {
+        font-size: 20px;
+    }
+    .contents03 .textbox-3 {
+        font-size: 20px;
+    }
+    .contents03 .textbox-4 {
+        font-size: 20px;
+    }
+    .contents04 .textcontent-1 {
+        font-size: 42px;
+    }   
+    .contents04 .textcontent-2 {
+        font-size: 20px;
+    }
+    .contents04 .textbox-1 {
+        font-size: 20px;
+    }
+    .contents04 .textbox-2 {
+        font-size: 20px;
+    }
+    .contents04 .textbox-3 {
+        font-size: 20px;
+    }
+    .contents04 .textbox-4 {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 500px){
+    .contents01 {
+        background-size: contain;
+        height: 400px;
+   }
+   .contents02 {
+       background-size: contain;
+       height: 400px;
+   }
 }
